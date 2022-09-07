@@ -78,11 +78,11 @@ const dinnerBtn = document.querySelector("#dinner");
 
 // all btn
 allBtn.addEventListener('click', () =>{
-    console.log('clicked');
     
-    let allfoods = foodList.map((id) => {
-        
-        // code
+    let allfoods = foodList.map((item) => {
+        price = price.innerHTML;
+        console.log('clicked');
+        console.log(allfoods);
     })
     
 })
